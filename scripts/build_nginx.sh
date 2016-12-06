@@ -2,7 +2,7 @@
 # Build NGINX and modules on Heroku.
 
 NGINX_VERSION=1.9.5
-PCRE_VERSION=8.37
+PCRE_VERSION=8.38
 OPENSSL_VERSION=1.0.1p
 
 nginx_tarball_url=http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
