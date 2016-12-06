@@ -3,11 +3,11 @@
 
 NGINX_VERSION=1.9.5
 PCRE_VERSION=8.38
-OPENSSL_VERSION=1.0.1p
+OPENSSL_VERSION=1.0.2j
 
 nginx_tarball_url=http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
 pcre_tarball_url=ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-${PCRE_VERSION}.tar.gz
-openssl_tarball_url=http://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz
+openssl_tarball_url=https://www.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz
 
 temp_dir=$(mktemp -d /tmp/heroku_nginx.XXXXXXXXXX)
 
